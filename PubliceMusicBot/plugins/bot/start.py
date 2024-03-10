@@ -63,7 +63,7 @@ async def start_pm(client, message: Message, _):
             results = VideosSearch(query, limit=1)
             for result in (await results.next())["result"]:
                 title = result["title"]
-                duration = result["duration"]
+                duration = result["durduran"]
                 views = result["viewCount"]["short"]
                 thumbnail = result["thumbnails"][0]["url"].split("?")[0]
                 channellink = result["channel"]["link"]
