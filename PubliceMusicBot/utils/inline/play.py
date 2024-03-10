@@ -63,7 +63,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users+"
+                text="➕ beni gruba ekle", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users+"
             ),
         ],
         [
@@ -74,10 +74,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
        [
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ ɢʀᴏᴜᴘ 💌", url=f"{SUPPORT_CHAT}"
+                text="destek grup 💌", url=f"https://t.me/masal_sohbeti"
             ),
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ 💕", user_id=config.OWNER),
+                text="sahip 💕", user_id=config. 6683031701),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -99,10 +99,10 @@ def stream_markup(_, chat_id):
         ],
        [
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ ɢʀᴏᴜᴘ 💌", url=f"{SUPPORT_CHAT}"
+                text="destek grup 💌", url=f"https://t.me/masal_sohbeti"
             ),
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ 💕", user_id=config.OWNER_ID),
+                text="sahip 💕", user_id=config. 6683031701),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
