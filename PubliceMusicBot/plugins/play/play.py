@@ -28,8 +28,8 @@ from config import BANNED_USERS, lyrical, AMBOT
 @app.on_message(
     filters.command(
         [
-            "play",
-            "vplay",
+            "play", "oynat",
+            "vplay", "voynat",
             "cplay",
             "cvplay",
             "playforce",
