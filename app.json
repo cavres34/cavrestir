@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "6435225",
+        "value": "16571012",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "4e984ea35f854762dcde906dce426c2d",
+        "value": "b4cb958074fb47640ec9bc0940333d13",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "5360305806",
+        "value": "6683031701",
         "required": true
       },
       "STRING_SESSION": {
@@ -54,17 +54,17 @@
       },
         "GBANLOGS": {
         "description": "Add Here Your Gbans Logs Channel Id ex : -100",
-        "value": "-1001841879487",
+        "value": "-1001984404074",
         "required": true
       },
         "PUBLICELOGS": {
         "description": "Chat id of a group for Bot Added Messege/Leaved Messege U can Add Your Support Group id Aslo ex : -100",
-        "value": "-1001841879487",
+        "value": "-1001984404074",
         "required": true
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!.. ex : -100",
-        "value": "-1001840241140",
+        "value": "-1001984404074",
         "required": true
       }
     },
